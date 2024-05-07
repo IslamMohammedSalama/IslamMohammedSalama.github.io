@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Islam Portfolio
+site_author: Islam Mohammed Salama
+site_description: Islam Mohammed Salama Portfolio .
+copyright: Copyright &copy; 2024 Islam Mohamed
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.highlight
+    - content.code.select
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+plugins:
+  - search
+  - tags
