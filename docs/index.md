@@ -52,8 +52,3 @@ My Gitub Repos :
     <li>All Learned And Practice On Programming : <a href="https://github.com/IslamMohammedSalama/Islam-Projects">Here</a></li>
     <li>This Web Site : <a href="https://github.com/IslamMohammedSalama/IslamMohammedSalama.github.io">Here</a></li>
 </ol>
-
-
-```js
-console.log("Hello , World !")
-```
