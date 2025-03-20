@@ -3,29 +3,43 @@ site_author: Islam Mohammed Salama
 site_description: Islam Mohammed Salama Portfolio .
 copyright: Copyright &copy; 2024 Islam Mohamed
 repo_url: https://github.com/IslamMohammedSalama/IslamMohammedSalama.github.io.git
+site_url: https://islammohammedsalama.github.io/ ;
 
-# extra_css:
-#   - stylesheets/extra.css
+extra_css:
+  - /assets/css/style.css
+extra_javascript:
+  - /assets/js/script.js
 
 theme:
   # custom_dir: overrides
   name: material
-  logo: /assets/images/islam.png
-  favicon: /assets/images/islam.png
+  logo: /assets/imgs/islam.png
+  favicon: /assets/imgs/islam.png
 
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: blue
+      primary: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
     # Palette toggle for dark mode
-    - scheme: slate
-      primary: indigo
-      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: blue
+      primary: blue
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
 
   features:
     - navigation.instant
