@@ -15,7 +15,7 @@ theme:
   name: material
   logo: /assets/imgs/islam.png
   favicon: /assets/imgs/islam.png
-
+  language: en
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -43,9 +43,18 @@ theme:
 
   features:
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.indexes
+    - navigation.top
     - content.code.copy
+    - navigation.sections
     # - navigation.tabs
     # - navigation.tabs.sticky
-    # - navigation.sections
     # - toc.integrate
+    - search.suggest
+
+plugins:
+  - offline
+  # - optimize
+  - search
+
